@@ -14,6 +14,7 @@
 The aim of this project is to classify galaxies' images by morphology, given a defined set of classes. To do so, we'll use classical computer vision techniques and compare them to machine learning techniques.
 
 ## Environment
+0. Python 3.8.10
 1. Create a new virtualPython environment : ``python3 -m venv envgalaxies``
 2. Activate it : ``source envgalaxies/bin/activate``
 3. Install the packages, with the given `requirements.txt` file : ``pip install -r requirements.txt``
