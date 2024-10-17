@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Abstract](#abstract)
+- [Environment](#environment)
 - [Dataset](#dataset)
 - [Methods](#methods)
   - [Preprocessing](#preprocessing)
@@ -11,6 +12,22 @@
 
 ## Abstract
 The aim of this project is to classify galaxies' images by morphology, given a defined set of classes. To do so, we'll use classical computer vision techniques and compare them to machine learning techniques.
+
+## Environment
+1. Create a new virtualPython environment : ``python3 -m venv envgalaxies``
+2. Activate it : ``source envgalaxies/bin/activate``
+3. Install the packages, with the given `requirements.txt` file : ``pip install -r requirements.txt``
+This requirements were built downloading the following packages : 
+- numpy
+- matplotlib
+- pandas
+- scikit-learn
+- astropy
+- keras
+- tensorflow
+- torch
+- opencv-python
+- tqdm
 
 ## Dataset
 The dataset used is available [here](https://www.astromatic.net/projects/efigi/). 
