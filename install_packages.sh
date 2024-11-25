@@ -2,7 +2,7 @@
 
 source ../.venv/bin/activate
 
-packages=("numpy" "matplotlib" "scipy" "astropy" "scikit-image" "opencv-python-headless" "tensorflow" "torch" "torchvision" "pillow" "tqdm" "pandas")
+packages=("numpy" "matplotlib" "scipy" "astropy" "scikit-learn" "scikit-image" "opencv-python-headless" "tensorflow" "torch" "torchvision" "pillow" "tqdm" "pandas" "torch" "torchinfo" "seaborn")
 
 failed_packages=()
 
