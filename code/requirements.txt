@@ -1,0 +1,12 @@
+numpy
+matplotlib
+scipy
+astropy
+scikit-image
+opencv-python-headless
+tensorflow
+torch
+torchvision
+pillow
+tqdm
+pandas
