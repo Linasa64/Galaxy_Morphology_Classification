@@ -1,5 +1,8 @@
 # Galaxy Morphology Classification
 
+## Research team
+Lina Borg, Adrien Leeman, Youssef Sidhom, Henry Mont, El-Haj Ebou
+
 ## Table of Contents
 - [Abstract](#abstract)
 - [Environment](#environment)
