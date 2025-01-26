@@ -11,7 +11,12 @@
 - [Improvement and future work](#improvement-and-future-work)
 
 ## Abstract
-The aim of this project is to classify galaxies' images by morphology, given a defined set of classes. To do so, we'll use classical computer vision techniques and compare them to machine learning techniques.
+This work explores the development of a computationally efficient Convolutional Neural Network (CNN) for classifying galaxies based on their morphology. Driven by the need for a resource-conscious and scalable solution, we prioritize a lightweight CNN architecture designed to operate effectively on affordable hardware with minimal environmental impact.
+
+To enhance flexibility and accommodate varying classification needs, we implement a hierarchical approach. The model progressively refines classifications, mimicking the Hubble Sequence by dividing galaxies into increasingly specific categories in a stage-wise manner. This hierarchical structure allows astronomers to choose the desired level of granularity, balancing classification accuracy with computational cost.
+
+We evaluate our model on the EFIGI dataset, aiming to demonstrate
+its ability to achieve high accuracy while minimizing resource demands. This research aims to provide astronomers with a practical and sustainable tool for efficiently classifying galaxies in large-scale astronomical surveys.
 
 ## Environment
 0. Python 3.8.10
@@ -33,17 +38,3 @@ This requirements were built downloading the following packages :
 ## Dataset
 The dataset used is available [here](https://www.astromatic.net/projects/efigi/). 
 It is called the EFIGI dataset, and is described in [this](https://arxiv.org/pdf/1103.5734) paper.
-
-## Methods
-
-### Preprocessing
-...
-
-### CV / ML methods used
-...
-
-## Results
-...
-
-## Improvement and future work
-...
