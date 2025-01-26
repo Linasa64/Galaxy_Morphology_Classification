@@ -4,11 +4,6 @@
 - [Abstract](#abstract)
 - [Environment](#environment)
 - [Dataset](#dataset)
-- [Methods](#methods)
-  - [Preprocessing](#preprocessing)
-  - [CV / ML methods used](#cv--ml-methods-used)
-- [Results](#results)
-- [Improvement and future work](#improvement-and-future-work)
 
 ## Abstract
 This work explores the development of a computationally efficient Convolutional Neural Network (CNN) for classifying galaxies based on their morphology. Driven by the need for a resource-conscious and scalable solution, we prioritize a lightweight CNN architecture designed to operate effectively on affordable hardware with minimal environmental impact.
